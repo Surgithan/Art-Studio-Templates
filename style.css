@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*  Smartphones  */
+@media (max-width: 767px) {
+    span {
+        margin-left: 0 !important;
+        display: block;
+        text-align: center;
+    }
+
+    .align-item {
+        display: block;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .align-item li {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .font-icon1 {
+        margin-left: 0;
+        display: inline-block;
+    }
+
+    .text-align {
+        margin: 30px auto;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    button {
+        margin: 20px auto;
+        display: block;
+    }
+
+    .image-move {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    img {
+        margin: 20px auto !important;
+        width: 90% !important;
+        height: auto !important;
+        display: block;
+    }
+
+    div[style*="margin-left: 600px"] {
+        margin: 40px auto !important;
+        width: 90% !important;
+    }
+}
+
+/*  Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    span {
+        margin-left: 50px !important;
+    }
+
+    .align-item {
+        margin-left: 50px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .align-item li {
+        list-style: none;
+        color: #fff;
+    }
+
+    .align-item a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .text-align {
+        margin-left: 50px;
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+
+    button {
+        margin-left: 50px !important;
+    }
+
+    .image-move {
+        width: 70%;
+        height: auto;
+        margin: 40px auto;
+        display: block;
+    }
+
+    img {
+        margin: 40px auto !important;
+        width: 70% !important;
+        height: auto !important;
+        display: block;
+    }
+
+    div[style*="margin-left: 600px"] {
+        margin: 60px auto !important;
+        width: 80% !important;
+    }
+}
+
+/*  Laptops & Desktops  */
+@media (min-width: 1025px) {
+    .align-item {
+        margin-left: 250px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .align-item li {
+        list-style: none;
+        color: #fff;
+    }
+
+    .align-item a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .font-icon1 {
+        margin-left: 38%;
+    }
+
+    .text-align {
+        margin-left: 150px;
+        margin-top: 98px;
+    }
+
+    .image-move {
+        width: 430px;
+        height: 550px;
+        margin-left: 680px;
+        margin-top: -400px;
+    }
+}
